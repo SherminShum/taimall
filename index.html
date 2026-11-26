@@ -1,502 +1,3 @@
-<!DOCTYPE html>
-<!-- saved from url=(0075)file:///Applications/%E5%8F%B0%E7%81%A3%E5%A5%BD%E7%89%A9%20index.html.html -->
-<html lang="zh-Hant"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>台灣好物｜台灣商品直送馬來西亞</title>
-<style>
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-padding-top:90px}
-body{font-family:-apple-system,"Microsoft JhengHei","PingFang TC",sans-serif;background:#faf9f7;color:#333;line-height:1.6}
-a{color:inherit}
-header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 1px 6px rgba(0,0,0,.08)}
-.bar{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 16px;gap:10px}
-.logo{font-size:20px;font-weight:700;color:#c8102e}
-nav{display:flex;gap:14px;font-size:14px;flex-wrap:wrap}
-nav a{text-decoration:none;color:#555}
-nav a:hover{color:#c8102e}
-.cartbtn{background:#c8102e;color:#fff;border:0;border-radius:20px;padding:8px 16px;cursor:pointer;font-size:14px}
-.hero{background:linear-gradient(120deg,#ffeadc,#fff4df);text-align:center;padding:12px 16px 66px;border-radius:0 0 20px 20px}
-.hero h1{font-size:40px;line-height:1.3;margin-bottom:14px;color:#c8102e}
-.hero p{color:#666;font-size:20px}
-.hero-actions{display:flex;justify-content:center;gap:14px;margin-top:28px}
-.hero-btn{display:inline-block;padding:12px 26px;border:1px solid #c8102e;border-radius:30px;text-decoration:none;font-size:16px;color:#c8102e;background:#fff}
-.hero-btn.primary{background:#c8102e;color:#fff}
-.hero-btn:hover{filter:brightness(.95)}
-section{max-width:1160px;margin:auto;padding:48px 8px}
-h2{font-size:26px;margin-bottom:22px;text-align:center;color:#c8102e}
-.intro-box,.service-card{background:#fff;border-radius:16px;padding:24px;box-shadow:0 3px 12px rgba(0,0,0,.07)}
-.intro-box{font-size:18px}
-.service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.service-card h3{font-size:19px;color:#c8102e;margin-bottom:2px}
-.service-card p{font-size:18px}
-.floating-wa{position:fixed;right:18px;bottom:18px;z-index:20;width:64px;height:64px;display:grid;place-items:center;border-radius:50%;background:#20c86b;color:#fff;text-decoration:none;font-size:32px;box-shadow:0 3px 10px rgba(0,0,0,.22)}
-.floating-wa svg{width:36px;height:36px}
-.cats{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
-.cat{border:1px solid #ddd;background:#fff;border-radius:20px;padding:6px 14px;cursor:pointer;font-size:14px}
-.cat.on{background:#c8102e;color:#fff;border-color:#c8102e}
-.search{width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;margin-bottom:16px;font-size:15px}
-.product-controls{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;margin:20px auto}
-.show-more,.page-btn{border:1px solid #c8102e;border-radius:20px;background:#fff;color:#c8102e;padding:8px 18px;font:inherit;cursor:pointer}
-.show-more:hover,.page-btn:hover:not(:disabled){background:#fff4f2}
-.page-btn:disabled{border-color:#ddd;color:#aaa;cursor:not-allowed}
-.page-status{color:#666;font-size:14px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
-.card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 5px rgba(0,0,0,.08);display:flex;flex-direction:column;position:relative}
-.pic{position:relative;overflow:hidden;width:100%;aspect-ratio:4/3;padding:8px;background:#fffaf7;display:flex;align-items:center;justify-content:center;font-size:48px;border:0;cursor:pointer}
-.pic img{display:block;width:100%;height:100%;object-fit:contain}
-.pic:focus-visible{outline:3px solid #c8102e;outline-offset:-3px}
-.info{padding:10px;flex:1;display:flex;flex-direction:column;gap:4px}
-.name{display:block;width:100%;padding:0;border:0;background:transparent;color:#333;text-align:left;font:inherit;font-weight:600;font-size:14px;cursor:pointer}
-.name:hover{color:#c8102e;text-decoration:underline}
-.name:focus-visible{outline:2px solid #c8102e;outline-offset:2px}
-.badge{position:absolute;left:8px;bottom:8px;z-index:1;background:rgba(200,16,46,.92);color:#fff;font-size:11px;padding:2px 8px;border-radius:10px}
-.product-card-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:40px;margin-top:auto;padding-top:4px}
-.price{color:#c8102e;font-weight:700}
-.quick-add{width:36px;height:36px;flex:0 0 36px;display:grid;place-items:center;border:1px solid #c8102e;border-radius:50%;background:#fff;color:#c8102e;font-size:18px;cursor:pointer}
-.quick-add:hover{background:#fff4f2}
-.quick-add:focus-visible{outline:2px solid #c8102e;outline-offset:2px}
-.quick-add:disabled{border-color:#ccc;color:#aaa;cursor:not-allowed}
-.product-detail-price{color:#c8102e;font-size:18px;font-weight:700;margin:12px 0}
-.product-detail-buy{margin-top:8px}
-.box{background:#fff;border-radius:12px;padding:18px;box-shadow:0 1px 5px rgba(0,0,0,.06)}
-.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
-table{width:100%;border-collapse:collapse;font-size:14px}
-td,th{border-bottom:1px solid #eee;padding:8px;text-align:left}
-input,select,textarea{width:100%;padding:10px;border:1px solid #ddd;border-radius:8px;font-size:15px;margin:4px 0 10px;font-family:inherit}
-label{font-size:13px;color:#666}
-.btn{background:#c8102e;color:#fff;border:0;border-radius:8px;padding:12px;width:100%;font-size:16px;cursor:pointer}
-.paypal-ask{display:block;text-align:center;text-decoration:none;margin-top:12px}
-.btn:disabled{background:#ccc}
-.btn.wa{background:#25d366}
-details{background:#fff;border-radius:8px;padding:12px 16px;margin-bottom:8px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
-summary{cursor:pointer;font-weight:600}
-details p{margin-top:8px;color:#555;font-size:14px}
-footer{background:#333;color:#ccc;text-align:center;padding:24px 16px;font-size:13px}
-.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:50;align-items:center;justify-content:center;padding:12px}
-.overlay.show{display:flex}
-.modal{background:#fff;border-radius:14px;width:100%;max-width:440px;max-height:92vh;overflow:auto;padding:20px}
-.product-modal{max-width:600px}
-.product-modal h3{margin:0 36px 12px 0;color:#c8102e}
-.product-detail-image{display:block;width:100%;height:auto;max-height:60vh;object-fit:contain;background:#fffaf7;border-radius:10px;margin-bottom:14px}
-.product-gallery-thumbnails{display:flex;gap:8px;overflow-x:auto;margin:-4px 0 14px;padding:2px}
-.product-thumb{flex:0 0 64px;width:64px;height:64px;padding:3px;border:1px solid #ddd;border-radius:8px;background:#fff;cursor:pointer}
-.product-thumb[aria-pressed="true"]{border:2px solid #c8102e}
-.product-thumb:focus-visible{outline:2px solid #c8102e;outline-offset:2px}
-.product-thumb img{display:block;width:100%;height:100%;object-fit:contain}
-.product-detail-description{white-space:pre-line;margin:8px 0 14px}
-.modal h3{margin-bottom:12px}
-.close{float:right;cursor:pointer;font-size:22px;color:#999;border:0;background:transparent}
-.line{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #f0f0f0;font-size:14px;gap:8px}
-.qty button{width:26px;height:26px;border:1px solid #ddd;background:#fff;border-radius:6px;cursor:pointer}
-.qty span{display:inline-block;min-width:24px;text-align:center}
-.sum div{display:flex;justify-content:space-between;padding:3px 0;font-size:14px}
-.sum .t{font-weight:700;font-size:17px;color:#c8102e}
-.hint{font-size:12px;color:#888}
-.free{background:#e8f6ec;color:#2e7d32;padding:6px 10px;border-radius:8px;font-size:13px;margin:8px 0}
-#b_preview{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0}
-@media(max-width:700px){
-  .bar{flex-wrap:wrap;justify-content:center}
-  nav{justify-content:center;order:3;width:100%}
-  .hero{padding:38px 16px 48px}
-  .hero h1{font-size:32px}
-  .hero p{font-size:17px}
-  .hero-actions{gap:10px}
-  .hero-btn{padding:10px 18px;font-size:15px}
-  section{padding:36px 12px}
-  html{scroll-padding-top:140px}
-  .service-grid{grid-template-columns:1fr}
-  .intro-box{font-size:16px}
-  .service-card p{font-size:16px}
-}
-</style>
-</head>
-<body id="home">
-
-<header>
-  <div class="bar">
-    <div class="logo">🇹🇼 台灣好物</div>
-    <nav>
-      <a href="file:///Applications/%E5%8F%B0%E7%81%A3%E5%A5%BD%E7%89%A9%20index.html.html#home">首頁</a><a href="file:///Applications/%E5%8F%B0%E7%81%A3%E5%A5%BD%E7%89%A9%20index.html.html#shop">商品</a><a href="file:///Applications/%E5%8F%B0%E7%81%A3%E5%A5%BD%E7%89%A9%20index.html.html#buy">代購</a><a href="file:///Applications/%E5%8F%B0%E7%81%A3%E5%A5%BD%E7%89%A9%20index.html.html#ship">運費付款</a><a href="file:///Applications/%E5%8F%B0%E7%81%A3%E5%A5%BD%E7%89%A9%20index.html.html#faq">FAQ</a><a href="file:///Applications/%E5%8F%B0%E7%81%A3%E5%A5%BD%E7%89%A9%20index.html.html#contact">聯絡</a>
-    </nav>
-    <button class="cartbtn" onclick="openCart()">🛒 購物車 (<span id="cnt">4</span>)</button>
-  </div>
-</header>
-
-<div class="hero">
-  <h1>台灣好物 直送馬來西亞</h1>
-  <p>現貨下單，確認付款後直接寄出</p>
-  <div class="hero-actions">
-    <a class="hero-btn primary" href="file:///Applications/%E5%8F%B0%E7%81%A3%E5%A5%BD%E7%89%A9%20index.html.html#shop">逛商品分類</a>
-    <a class="hero-btn" href="file:///Applications/%E5%8F%B0%E7%81%A3%E5%A5%BD%E7%89%A9%20index.html.html#buy">我要代購</a>
-  </div>
-</div>
-
-<section id="about">
-  <h2>關於我們</h2>
-  <div class="intro-box">台灣好物希望把台灣值得分享的好商品帶給馬來西亞的朋友。我們精選台灣特色食品、日常用品與人氣好物，讓您不用親自往返台灣，也能輕鬆找到喜愛的商品。無論是想念家鄉味，或想探索台灣好物，都歡迎來逛逛；若找不到想要的商品，也可以使用代購服務告訴我們。</div>
-</section>
-
-<section id="services">
-  <h2>我們的服務</h2>
-  <div class="service-grid">
-    <article class="service-card">
-      <h3>🚚 下單直接寄送</h3>
-      <p>現貨商品確認付款後直接安排寄出，付款確認後 3 天內由台灣出貨。</p>
-    </article>
-    <article class="service-card">
-      <h3>💰 滿 RM799 免運（限 10 kg 以內）</h3>
-      <p>未滿 RM799，5 kg 以內 RM50、超過 5 至 8 kg RM85、超過 8 至 13 kg RM125；超過 13 kg RM150。</p>
-    </article>
-    <article class="service-card">
-      <h3>🙋 代購服務</h3>
-      <p>貼上連結或照片，我們可以嘗試幫忙尋找及購買。</p>
-    </article>
-  </div>
-</section>
-
-<section id="shop">
-  <h2>🛍️ 商品</h2>
-  <input class="search" id="q" aria-label="搜尋商品名稱、規格、成分或介紹" placeholder="搜尋商品名稱、規格、成分或介紹…" oninput="searchProducts()">
-  <div class="cats" id="cats"><button class="cat on" onclick="setCat('全部')">全部</button><button class="cat " onclick="setCat('美妝保養')">美妝保養</button><button class="cat " onclick="setCat('個人清潔')">個人清潔</button><button class="cat " onclick="setCat('玩具休閒')">玩具休閒</button><button class="cat " onclick="setCat('食品飲料')">食品飲料</button><button class="cat " onclick="setCat('生活用品')">生活用品</button><button class="cat " onclick="setCat('女性用品')">女性用品</button><button class="cat " onclick="setCat('男性用品')">男性用品</button><button class="cat " onclick="setCat('運動戶外')">運動戶外</button><button class="cat " onclick="setCat('寵物')">寵物</button><button class="cat " onclick="setCat('其他')">其他</button></div>
-  <div class="grid" id="grid">
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(1)" aria-label="查看商品介紹：黑金傳奇 黑糖薑母茶磚  ">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/黑金傳奇_黑糖薑母茶磚__1795498738709.jpg" alt="黑金傳奇 黑糖薑母茶磚  " loading="lazy">
-        <span class="badge">推薦</span>
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(1)" aria-label="查看商品介紹：黑金傳奇 黑糖薑母茶磚  ">黑金傳奇 黑糖薑母茶磚  </button>
-        <div class="product-card-footer">
-          <div class="price">RM45</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：黑金傳奇 黑糖薑母茶磚  " title="加入購物車" onclick="addCart(1)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(2)" aria-label="查看商品介紹：義美薑母茶, 15g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/義美薑母茶_15g_1795494744090.jpg" alt="義美薑母茶, 15g" loading="lazy">
-        <span class="badge">推薦</span>
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(2)" aria-label="查看商品介紹：義美薑母茶, 15g">義美薑母茶, 15g</button>
-        <div class="product-card-footer">
-          <div class="price">RM32</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：義美薑母茶, 15g" title="加入購物車" onclick="addCart(2)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(3)" aria-label="查看商品介紹：蜜思朵 黑糖薑母紅茶,17g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/蜜思朵_黑糖薑母紅茶_17g_1795495390040.jpg" alt="蜜思朵 黑糖薑母紅茶,17g" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(3)" aria-label="查看商品介紹：蜜思朵 黑糖薑母紅茶,17g">蜜思朵 黑糖薑母紅茶,17g</button>
-        <div class="product-card-footer">
-          <div class="price">RM32</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：蜜思朵 黑糖薑母紅茶,17g" title="加入購物車" onclick="addCart(3)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(4)" aria-label="查看商品介紹：蜜思朵 黑糖桂圓紅棗薑母茶, 17g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/蜜思朵_黑糖桂圓紅棗薑母茶_17g_1795495419495.jpg" alt="蜜思朵 黑糖桂圓紅棗薑母茶, 17g" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(4)" aria-label="查看商品介紹：蜜思朵 黑糖桂圓紅棗薑母茶, 17g">蜜思朵 黑糖桂圓紅棗薑母茶, 17g</button>
-        <div class="product-card-footer">
-          <div class="price">RM45</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：蜜思朵 黑糖桂圓紅棗薑母茶, 17g" title="加入購物車" onclick="addCart(4)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(5)" aria-label="查看商品介紹：義美 減糖薑母茶, 15g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/義美_減糖薑母茶_15g_1795497242293.webp" alt="義美 減糖薑母茶, 15g" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(5)" aria-label="查看商品介紹：義美 減糖薑母茶, 15g">義美 減糖薑母茶, 15g</button>
-        <div class="product-card-footer">
-          <div class="price">RM31</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：義美 減糖薑母茶, 15g" title="加入購物車" onclick="addCart(5)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(6)" aria-label="查看商品介紹：糖鼎 二合一黑糖薑茶 黑糖磚, 30g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/糖鼎_二合一黑糖薑茶_黑糖磚_30g_1795497257332.jpg" alt="糖鼎 二合一黑糖薑茶 黑糖磚, 30g" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(6)" aria-label="查看商品介紹：糖鼎 二合一黑糖薑茶 黑糖磚, 30g">糖鼎 二合一黑糖薑茶 黑糖磚, 30g</button>
-        <div class="product-card-footer">
-          <div class="price">RM32</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：糖鼎 二合一黑糖薑茶 黑糖磚, 30g" title="加入購物車" onclick="addCart(6)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(7)" aria-label="查看商品介紹：蜜思朵 黑糖薑母茶, 17g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/蜜思朵_黑糖薑母茶_17g_1795497275946.jpg" alt="蜜思朵 黑糖薑母茶, 17g" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(7)" aria-label="查看商品介紹：蜜思朵 黑糖薑母茶, 17g">蜜思朵 黑糖薑母茶, 17g</button>
-        <div class="product-card-footer">
-          <div class="price">RM45</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：蜜思朵 黑糖薑母茶, 17g" title="加入購物車" onclick="addCart(7)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(8)" aria-label="查看商品介紹：蜜思朵 黑糖冬瓜茶, 17g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/蜜思朵_黑糖冬瓜茶_17g_1795497470624.jpg" alt="蜜思朵 黑糖冬瓜茶, 17g" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(8)" aria-label="查看商品介紹：蜜思朵 黑糖冬瓜茶, 17g">蜜思朵 黑糖冬瓜茶, 17g</button>
-        <div class="product-card-footer">
-          <div class="price">RM35</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：蜜思朵 黑糖冬瓜茶, 17g" title="加入購物車" onclick="addCart(8)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(9)" aria-label="查看商品介紹：蜜思朵 黑糖檸檬薑茶, 17g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/蜜思朵_黑糖檸檬薑茶_17g_1795497972946.jpg" alt="蜜思朵 黑糖檸檬薑茶, 17g" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(9)" aria-label="查看商品介紹：蜜思朵 黑糖檸檬薑茶, 17g">蜜思朵 黑糖檸檬薑茶, 17g</button>
-        <div class="product-card-footer">
-          <div class="price">RM42</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：蜜思朵 黑糖檸檬薑茶, 17g" title="加入購物車" onclick="addCart(9)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(10)" aria-label="查看商品介紹：蜜思朵 冰糖菊花枸杞金盞花茶, 17g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/蜜思朵_冰糖菊花枸杞金盞花茶_17g_1795497950369.webp" alt="蜜思朵 冰糖菊花枸杞金盞花茶, 17g" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(10)" aria-label="查看商品介紹：蜜思朵 冰糖菊花枸杞金盞花茶, 17g">蜜思朵 冰糖菊花枸杞金盞花茶, 17g</button>
-        <div class="product-card-footer">
-          <div class="price">RM40</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：蜜思朵 冰糖菊花枸杞金盞花茶, 17g" title="加入購物車" onclick="addCart(10)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(11)" aria-label="查看商品介紹：天仁茗茶 天仁烏龍茶, 600g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/天仁茗茶_天仁烏龍茶_600g_1795498754481.jpg" alt="天仁茗茶 天仁烏龍茶, 600g" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(11)" aria-label="查看商品介紹：天仁茗茶 天仁烏龍茶, 600g">天仁茗茶 天仁烏龍茶, 600g</button>
-        <div class="product-card-footer">
-          <div class="price">RM45</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：天仁茗茶 天仁烏龍茶, 600g" title="加入購物車" onclick="addCart(11)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(12)" aria-label="查看商品介紹：天仁茗茶 高山烏龍茶, 2g, 100包">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/天仁茗茶_高山烏龍茶_2g_100包_1795498782072.jpg" alt="天仁茗茶 高山烏龍茶, 2g, 100包" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(12)" aria-label="查看商品介紹：天仁茗茶 高山烏龍茶, 2g, 100包">天仁茗茶 高山烏龍茶, 2g, 100包</button>
-        <div class="product-card-footer">
-          <div class="price">RM38</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：天仁茗茶 高山烏龍茶, 2g, 100包" title="加入購物車" onclick="addCart(12)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(13)" aria-label="查看商品介紹：天仁茗茶 原片 高山烏龍茶, 3g">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/天仁茗茶_原片_高山烏龍茶_3g_1795498810984.jpg" alt="天仁茗茶 原片 高山烏龍茶, 3g" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(13)" aria-label="查看商品介紹：天仁茗茶 原片 高山烏龍茶, 3g">天仁茗茶 原片 高山烏龍茶, 3g</button>
-        <div class="product-card-footer">
-          <div class="price">RM35</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：天仁茗茶 原片 高山烏龍茶, 3g" title="加入購物車" onclick="addCart(13)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(14)" aria-label="查看商品介紹：天仁茗茶 菊花普洱茶 防潮包, 2g, 100包">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/天仁茗茶_菊花普洱茶_防潮包_2g_100包_1795498831097.jpg" alt="天仁茗茶 菊花普洱茶 防潮包, 2g, 100包" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(14)" aria-label="查看商品介紹：天仁茗茶 菊花普洱茶 防潮包, 2g, 100包">天仁茗茶 菊花普洱茶 防潮包, 2g, 100包</button>
-        <div class="product-card-footer">
-          <div class="price">RM38</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：天仁茗茶 菊花普洱茶 防潮包, 2g, 100包" title="加入購物車" onclick="addCart(14)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(15)" aria-label="查看商品介紹：台灣茶人 阿里山風味金萱茶, 2.5g, 15包">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/台灣茶人_阿里山風味金萱茶_2_5g_15包_1795499237964.jpg" alt="台灣茶人 阿里山風味金萱茶, 2.5g, 15包" loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(15)" aria-label="查看商品介紹：台灣茶人 阿里山風味金萱茶, 2.5g, 15包">台灣茶人 阿里山風味金萱茶, 2.5g, 15包</button>
-        <div class="product-card-footer">
-          <div class="price">RM45</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：台灣茶人 阿里山風味金萱茶, 2.5g, 15包" title="加入購物車" onclick="addCart(15)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(16)" aria-label="查看商品介紹：台灣茶人 100%金葉金獎台灣茶 日月潭紅玉紅茶, 2.5g, 15包,">
-        <img src="./台灣好物｜台灣商品直送馬來西亞_files/台灣茶人_100_金葉金獎台灣茶_日月潭紅玉紅茶_2_5g_15包__1795499201374.jpg" alt="台灣茶人 100%金葉金獎台灣茶 日月潭紅玉紅茶, 2.5g, 15包," loading="lazy">
-        
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(16)" aria-label="查看商品介紹：台灣茶人 100%金葉金獎台灣茶 日月潭紅玉紅茶, 2.5g, 15包,">台灣茶人 100%金葉金獎台灣茶 日月潭紅玉紅茶, 2.5g, 15包,</button>
-        <div class="product-card-footer">
-          <div class="price">RM45</div>
-          <button class="quick-add" type="button" aria-label="加入購物車：台灣茶人 100%金葉金獎台灣茶 日月潭紅玉紅茶, 2.5g, 15包," title="加入購物車" onclick="addCart(16)"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div></div>
-  <div class="product-controls" id="productControls"><button class="show-more" type="button" onclick="toggleProductExpansion()">查看更多商品</button><button class="page-btn" type="button" disabled="" onclick="changeProductPage(0)">上一頁</button><span class="page-status">第 1 / 2 頁</span><button class="page-btn" type="button" onclick="changeProductPage(2)">下一頁</button></div>
-  <p class="hint" id="empty" style="display:none;margin-top:12px">這個分類目前沒有商品，歡迎使用下方「代購」服務。</p>
-</section>
-
-<section id="buy">
-  <h2>🔎 代購服務</h2>
-  <div class="box">
-    <p class="hint" style="margin-bottom:10px">找不到想要的商品？貼上連結或上傳照片，我們可以嘗試幫忙尋找及購買。</p>
-    <label>姓名 *</label><input id="b_name">
-    <label>商品連結</label><input id="b_link" placeholder="https://...">
-    <label>規格（顏色、尺寸等）</label><input id="b_spec">
-    <label>數量</label><input id="b_qty" type="number" min="1" value="1">
-    <label>備註</label><textarea id="b_note" rows="3" placeholder="商品描述、預算等"></textarea>
-    <label>📷 上傳商品照片（最多 3 張，選填）</label>
-    <input id="b_photos" type="file" accept="image/*" multiple="" onchange="pickPhotos(this)">
-    <div id="b_preview"></div>
-    <button class="btn wa" id="buyBtn" onclick="sendBuy()">送出代購需求（WhatsApp）</button>
-    <p class="hint" style="margin-top:8px">📷 可直接上傳照片，或貼上商品連結。照片太多時，也可以在 WhatsApp 補傳。代購費用將於報價時說明。</p>
-  </div>
-</section>
-
-<section id="ship">
-  <h2>🚚 運費與付款</h2>
-  <div class="cols">
-    <div class="box">
-      <h3 style="margin-bottom:8px">運費</h3>
-      <p style="font-size:14px;margin-bottom:8px">商品小計滿 <b>RM799</b>，且包裹不超過 <b>10 kg</b>：免運。</p>
-      <table>
-        <tbody><tr><th>包裹重量</th><th>運費</th><th>適用條件</th></tr>
-        <tr><td>5 kg 以內</td><td>RM50</td><td>小計未滿 RM799</td></tr>
-        <tr><td>超過 5 至 8 kg</td><td>RM85</td><td>小計未滿 RM799</td></tr>
-        <tr><td>超過 8 至 10 kg</td><td>RM125</td><td>小計未滿 RM799</td></tr>
-        <tr><td>超過 10 至 13 kg</td><td>RM125</td><td>不適用免運</td></tr>
-        <tr><td>超過 13 kg</td><td>RM150</td><td>大量或體積較大請先詢問</td></tr>
-      </tbody></table>
-      <p class="hint" style="margin-top:8px">不足 1 kg 按 1 kg 計；重量為商品單件寄送重量乘以數量加總。</p>
-    </div>
-    <div class="box">
-      <h3 style="margin-bottom:8px">付款方式｜PayPal</h3>
-      <ol style="font-size:14px;padding-left:22px">
-        <li>結帳頁核對商品小計、運費與應付總額。</li>
-        <li>設定完成後，按 PayPal 按鈕到 PayPal 安全頁面付款。</li>
-        <li>若線上付款尚未啟用，請用 WhatsApp 索取人工付款連結。</li>
-        <li>確認收款後安排出貨。</li>
-      </ol>
-      <p class="hint" style="margin-top:8px">完成 PayPal 設定後，結帳頁會提供 PayPal 安全付款按鈕；尚未設定期間可透過 WhatsApp 索取人工付款連結。請只在 PayPal 頁面輸入付款資料。</p>
-      <a class="btn paypal-ask" id="paypalAsk" href="https://wa.me/60123456789?text=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E4%BD%BF%E7%94%A8%20PayPal%20%E4%BB%98%E6%AC%BE%EF%BC%8C%E8%AB%8B%E6%8F%90%E4%BE%9B%20PayPal%20Invoice%EF%BC%8F%E4%BB%98%E6%AC%BE%E9%80%A3%E7%B5%90%E3%80%82" target="_blank" rel="noopener noreferrer">WhatsApp 詢問 PayPal 付款方式</a>
-      <p class="hint" style="margin-top:8px">直接付款使用 PayPal Checkout；付款資料由 PayPal 處理。API Secret 必須保存在 Apps Script 伺服器端，不可放在網頁程式碼或傳給他人。</p>
-      <p style="font-size:14px;margin-top:6px">📦 現貨於付款確認後 <b>3 天內</b>由台灣出貨。</p>
-    </div>
-  </div>
-</section>
-
-<section id="faq">
-  <h2>❓ 常見問題</h2>
-  <details><summary>怎麼下單？</summary><p>把商品加入購物車，填寫收件資料後送出，系統會開啟 WhatsApp 通知我們。我們會回覆付款連結。</p></details>
-  <details><summary>用什麼付款？</summary><p>PayPal 線上付款設定完成後，可在結帳頁使用 PayPal 安全付款按鈕；設定完成前，請透過 WhatsApp 索取人工付款連結。付款資料只在 PayPal 頁面輸入。</p></details>
-  <details><summary>多久會出貨？</summary><p>現貨商品付款確認後 3 天內由台灣出貨。實際到貨時間依物流狀況而定。</p></details>
-  <details><summary>運費怎麼算？</summary><p>商品金額滿 RM799 且重量不超過 10 kg 免運。未滿 RM799，5 kg 以內 RM50；超過 5 kg 至 8 kg RM85；超過 8 kg 至 13 kg RM125。超過 10 kg 至 13 kg 不適用滿額免運；超過 13 kg RM150，大量或體積較大請聯絡客服確認。</p></details>
-  <details><summary>找不到的商品可以代購嗎？</summary><p>可以。貼上連結或上傳照片，我們可以嘗試幫忙尋找及購買，會先報價再請您確認。</p></details>
-</section>
-
-<section id="contact">
-  <h2>📞 聯絡我們</h2>
-  <div class="box">
-    <p>💬 WhatsApp：<a href="https://wa.me/60123456789" id="waLink">+60 12-345 6789</a></p>
-    <p>🕘 客服時間：週一至週五 9:00am – 6:30pm（馬來西亞時間）</p>
-    <p>📧 Email：hello@example.com</p>
-  </div>
-</section>
-
-<a class="floating-wa" href="https://wa.me/60123456789" id="floatingWa" target="_blank" rel="noopener noreferrer" aria-label="透過 WhatsApp 聯絡我們">
-  <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a12 12 0 0 0-10.2 18.3L4 28l6.9-1.8A12 12 0 1 0 16 3Zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.1 1.1 1.1-4-.3-.4A9.8 9.8 0 1 1 16 24.8Zm5.4-7.3c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.5c.1-.2 0-.4 0-.5l-.9-2.1c-.2-.5-.5-.4-.7-.4H12c-.2 0-.5.1-.8.4s-1 1-.1 2.4 1.1 1.7 1.3 2c.2.3 2.1 3.2 5 4.4 2.4 1 2.9.8 3.4.7.5-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4s-.3-.2-.6-.4Z"></path></svg>
-</a>
-
-<footer>© 2026 台灣好物｜台灣商品直送馬來西亞</footer>
-
-<!-- 商品介紹 -->
-<div class="overlay" id="productOv" onclick="if(event.target===this) closeAll()">
-  <div class="modal product-modal" role="dialog" aria-modal="true" aria-labelledby="productTitle">
-    <button class="close" type="button" onclick="closeAll()" aria-label="關閉商品介紹">✕</button>
-    <div id="productBody"></div>
-  </div>
-</div>
-
-<!-- 購物車 -->
-<div class="overlay" id="cartOv">
-  <div class="modal">
-    <button class="close" type="button" onclick="closeAll()" aria-label="關閉購物車">✕</button>
-    <h3>🛒 購物車</h3>
-    <div id="cartBody">
-      <div class="line">
-        <div style="flex:1">蜜思朵 黑糖薑母紅茶,17g<div class="hint">RM32</div></div>
-        <div class="qty"><button onclick="chg(3,-1)">−</button><span>4</span><button onclick="chg(3,1)">＋</button></div>
-        <div style="min-width:60px;text-align:right">RM128</div>
-      </div><div class="sum" style="margin-top:10px">
-        <div><span>商品小計</span><span>RM128</span></div>
-        <div><span>包裹重量</span><span>0.07 kg</span></div>
-        <div><span>運費</span><span>RM50</span></div>
-        <div class="t"><span>合計</span><span>RM178</span></div>
-      </div><div class="hint" style="margin:6px 0">未滿 1 kg 按 1 kg 計費；再買 RM671 達 RM799 可免運。</div><button class="btn" onclick="openCheckout()">前往結帳</button></div>
-  </div>
-</div>
-
-<!-- 結帳 -->
-<div class="overlay" id="coOv">
-  <div class="modal">
-    <button class="close" type="button" onclick="closeAll()" aria-label="關閉結帳視窗">✕</button>
-    <h3>填寫收件資料</h3>
-    <label>姓名 *</label><input id="c_name">
-    <label>電話 *</label><input id="c_phone" type="tel" placeholder="0123456789">
-    <label>地區 *</label>
-    <select id="c_region" onchange="renderCheckout()">
-      <option value="西馬">西馬</option>
-      <option value="東馬（沙巴/砂拉越/納閩）">東馬（沙巴/砂拉越/納閩）</option>
-    </select>
-    <label>收件地址 *</label><textarea id="c_addr" rows="3"></textarea>
-    <div class="sum" id="coSum"></div>
-    <div id="paypalButtons" style="display:none;margin-top:12px"></div>
-    <p id="paypalStatus" class="hint" role="status" aria-live="polite" style="margin-top:8px"></p>
-    <button class="btn" id="orderBtn" onclick="submitOrder()" style="margin-top:10px">尚未啟用線上付款：透過 WhatsApp 下單</button>
-    <p class="hint" style="margin-top:8px">結帳金額會依商品重量及運費計算。線上付款時，銀行／卡片資料由 PayPal 安全處理，本網站不會收集。</p>
-  </div>
-</div>
-
-<script>
-/* ===== 設定區 ===== */
-const SHEET_URL = "https://script.google.com/macros/s/AKfycbzEBO2rJLhvlS2xiK_p1tAhE4x2iNjlcwgPwgCr0Xzwz7YUPqhEdCvMAVMU5xLXPH3S/exec";
-const WA_NUMBER = "60123456789"; // 改成你的 WhatsApp（國碼+號碼，不加 + 和空格）
 const FREE_SHIPPING = 799;
 const SHIPPING_UP_TO_5KG = 50;
 const SHIPPING_UP_TO_8KG = 85;
@@ -506,446 +7,767 @@ const FIVE_KG_IN_GRAMS = 5000;
 const EIGHT_KG_IN_GRAMS = 8000;
 const TEN_KG_IN_GRAMS = 10000;
 const THIRTEEN_KG_IN_GRAMS = 13000;
-const INITIAL_PRODUCT_COUNT = 16;
-const PRODUCT_PAGE_SIZE = 24;
-const CATEGORIES = ["美妝保養","個人清潔","玩具休閒","食品飲料","生活用品","女性用品","男性用品","運動戶外","寵物","其他"];
+const PAYPAL_CURRENCY = "MYR";
+const PAYPAL_HOLD_MINUTES = 30;
+const SHIPPING_REGIONS = ["西馬", "東馬（沙巴/砂拉越/納閩）"];
 
-// 內建範例商品（後台載入失敗時使用）
-let PRODUCTS = [
-  {id:1,name:"保濕面膜組",desc:"10片",price:55,cat:"美妝保養",icon:"💆",img:"",stock:30,badge:"熱賣"},
-  {id:2,name:"檜木沐浴乳",desc:"500ml",price:39,cat:"個人清潔",icon:"🧼",img:"",stock:20,badge:""},
-  {id:3,name:"台灣鳳梨酥",desc:"12入禮盒",price:68,cat:"食品飲料",icon:"🍍",img:"",stock:15,badge:"人氣"},
-  {id:4,name:"珍珠奶茶沖泡包",desc:"10包",price:35,cat:"食品飲料",icon:"🧋",img:"",stock:40,badge:""},
-  {id:5,name:"竹纖維毛巾",desc:"3入",price:42,cat:"生活用品",icon:"🧺",img:"",stock:25,badge:""},
-  {id:6,name:"寵物零食",desc:"雞肉條 100g",price:28,cat:"寵物",icon:"🐶",img:"",stock:18,badge:""}
-];
-
-const $ = id => document.getElementById(id);
-const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-let curCat = "全部";
-let cart = JSON.parse(localStorage.getItem("cart")||"{}");
-let paypalConfig = null;
-let paypalSdkPromise = null;
-let paypalButtonsMounted = false;
-
-/* ===== 後台通訊 ===== */
-async function post(data){
-  const r = await fetch(SHEET_URL,{method:"POST",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(data)});
-  return await r.json();
-}
-async function loadProducts(){
-  if(!SHEET_URL) return;
-  try{
-    const r = await fetch(SHEET_URL);
-    const list = await r.json();
-    if(Array.isArray(list) && list.length) PRODUCTS = list;
-  }catch(e){ console.warn("載入後台商品失敗，使用內建商品",e); }
-}
-
-/* ===== 商品列表 ===== */
-function renderCats(){
-  $("cats").innerHTML = ["全部",...CATEGORIES].map(c=>
-    `<button class="cat ${c===curCat?"on":""}" onclick="setCat('${c}')">${c}</button>`).join("");
-}
-let productPage=1;
-let showAllOnFirstPage=false;
-function setCat(c){ curCat=c; productPage=1; showAllOnFirstPage=false; renderCats(); render(); }
-function searchProducts(){ productPage=1; showAllOnFirstPage=false; render(); }
-function toggleProductExpansion(){ showAllOnFirstPage=!showAllOnFirstPage; render(); }
-function changeProductPage(page){
-  productPage=page;
-  showAllOnFirstPage=page>1;
-  render();
-  $("shop").scrollIntoView({behavior:"smooth",block:"start"});
-}
-let activeProductImages=[];
-function productImages(p){
-  const primary=p.img||p.image||p.photo||"";
-  const extra=Array.isArray(p.images)?p.images:[];
-  return [...new Set([primary,...extra].filter(image=>typeof image==="string"&&image.trim()))].slice(0,5);
-}
-function productImage(p){ return productImages(p)[0]||""; }
-function productIcon(p){ return typeof p.icon==="string"&&p.icon?p.icon:"🎁"; }
-function productDescription(p){ return p.description||p.detail||p.details||p.desc||"商品介紹尚未提供。"; }
-function showProductImage(index){
-  const image=$("productMainImage");
-  if(!image||!activeProductImages[index]) return;
-  image.src=activeProductImages[index];
-  document.querySelectorAll(".product-thumb").forEach((button,i)=>{
-    button.setAttribute("aria-pressed",i===index?"true":"false");
-  });
-}
-function render(){
-  const q=$("q").value.trim().toLowerCase();
-  const list=PRODUCTS.filter(p=>{
-    const matchesCategory=curCat==="全部"||p.cat===curCat;
-    const searchable=[p.name,p.desc,productDescription(p),p.cat,p.badge]
-      .map(value=>String(value||"")).join(" ").toLowerCase();
-    return matchesCategory&&(!q||searchable.includes(q));
-  });
-  const pageCount=Math.ceil(list.length/PRODUCT_PAGE_SIZE);
-  if(pageCount&&productPage>pageCount){productPage=1;showAllOnFirstPage=false;}
-  const start=(productPage-1)*PRODUCT_PAGE_SIZE;
-  const pageItems=list.slice(start,start+PRODUCT_PAGE_SIZE);
-  const visibleItems=productPage===1&&!showAllOnFirstPage
-    ? pageItems.slice(0,INITIAL_PRODUCT_COUNT)
-    : pageItems;
-  $("grid").innerHTML = visibleItems.map(p=>`
-    <div class="card">
-      <button class="pic" type="button" onclick="openProduct(${JSON.stringify(p.id)})" aria-label="查看商品介紹：${esc(p.name)}">
-        ${productImage(p)?`<img src="${esc(productImage(p))}" alt="${esc(p.name)}" loading="lazy">`:esc(productIcon(p))}
-        ${p.badge?`<span class="badge">${esc(p.badge)}</span>`:""}
-      </button>
-      <div class="info">
-        <button class="name" type="button" onclick="openProduct(${JSON.stringify(p.id)})" aria-label="查看商品介紹：${esc(p.name)}">${esc(p.name)}</button>
-        <div class="product-card-footer">
-          <div class="price">RM${esc(p.price)}</div>
-          <button class="quick-add" type="button" ${p.stock<1?"disabled":""} aria-label="加入購物車：${esc(p.name)}" title="加入購物車" onclick="addCart(${JSON.stringify(p.id)})"><span aria-hidden="true">🛒</span></button>
-        </div>
-      </div>
-    </div>`).join("");
-  const controls=[];
-  if(productPage===1&&pageItems.length>INITIAL_PRODUCT_COUNT){
-    controls.push(`<button class="show-more" type="button" onclick="toggleProductExpansion()">${showAllOnFirstPage?"收起商品":"查看更多商品"}</button>`);
-  }
-  if(pageCount>1){
-    controls.push(`<button class="page-btn" type="button" ${productPage===1?"disabled":""} onclick="changeProductPage(${productPage-1})">上一頁</button>`);
-    controls.push(`<span class="page-status">第 ${productPage} / ${pageCount} 頁</span>`);
-    controls.push(`<button class="page-btn" type="button" ${productPage===pageCount?"disabled":""} onclick="changeProductPage(${productPage+1})">下一頁</button>`);
-  }
-  $("productControls").innerHTML=controls.join("");
-  $("empty").textContent=q?"找不到符合的商品，請試試其他關鍵字。":"這個分類目前沒有商品，歡迎使用下方「代購」服務。";
-  $("empty").style.display = list.length?"none":"block";
-}
-function openProduct(id){
-  const p=prod(id);
-  if(!p) return;
-  activeProductImages=productImages(p);
-  $("productBody").innerHTML = `
-    <h3 id="productTitle">品名：${esc(p.name)}</h3>
-    ${activeProductImages.length?`
-      <img class="product-detail-image" id="productMainImage" src="${esc(activeProductImages[0])}" alt="${esc(p.name)} 商品照片">
-      ${activeProductImages.length>1?`<div class="product-gallery-thumbnails" role="group" aria-label="選擇商品照片">
-        ${activeProductImages.map((image,index)=>`<button class="product-thumb" type="button" aria-label="查看第 ${index+1} 張商品照片" aria-pressed="${index===0}" onclick="showProductImage(${index})"><img src="${esc(image)}" alt=""></button>`).join("")}
-      </div>`:""}`:`<div class="product-detail-image" aria-hidden="true" style="height:180px;display:grid;place-items:center;font-size:72px">${esc(productIcon(p))}</div>`}
-    <p class="product-detail-description">${esc(productDescription(p))}</p>
-    <p class="product-detail-price">價格：RM${esc(p.price)}</p>
-    <button class="btn product-detail-buy" type="button" ${p.stock<1?"disabled":""} onclick="addCart(${JSON.stringify(p.id)});closeAll()">${p.stock<1?"已售完":"加入購物車"}</button>`;
-  closeAll();
-  $("productOv").classList.add("show");
-}
-
-/* ===== 購物車 ===== */
-function saveCart(){ localStorage.setItem("cart",JSON.stringify(cart)); updateCnt(); }
-function updateCnt(){ $("cnt").textContent = Object.values(cart).reduce((a,b)=>a+b,0); }
-function prod(id){ return PRODUCTS.find(p=>p.id==id); }
-function addCart(id){
-  const p = prod(id); if(!p) return;
-  const n = (cart[id]||0)+1;
-  if(n>p.stock) return alert("庫存不足，請調整商品數量或聯絡客服。");
-  cart[id]=n; saveCart(); alert("已加入購物車：" + p.name);
-}
-function chg(id,d){
-  const p = prod(id); const n=(cart[id]||0)+d;
-  if(n<=0) delete cart[id];
-  else if(p && n>p.stock) return alert("庫存不足");
-  else cart[id]=n;
-  saveCart(); openCart();
-}
-function cartItems(){
-  // 移除已不存在的商品
-  Object.keys(cart).forEach(id=>{ if(!prod(id)) delete cart[id]; });
-  return Object.keys(cart).map(id=>({p:prod(id),qty:cart[id]}));
-}
-function calc(){
-  const items = cartItems();
-  const sub = items.reduce((a,i)=>a+i.p.price*i.qty,0);
-  const weightMissing = items.some(i=>!Number.isFinite(Number(i.p.weight))||Number(i.p.weight)<=0);
-  const totalWeight = weightMissing ? 0 : items.reduce((a,i)=>a+Number(i.p.weight)*i.qty,0);
-  const quoteRequired = items.length>0&&weightMissing;
-  const freeShippingEligible = !weightMissing&&totalWeight<=TEN_KG_IN_GRAMS&&sub>=FREE_SHIPPING;
-  const ship = !items.length||quoteRequired||freeShippingEligible
-    ? 0
-    : totalWeight>THIRTEEN_KG_IN_GRAMS?SHIPPING_OVER_13KG
-    : totalWeight>EIGHT_KG_IN_GRAMS?SHIPPING_UP_TO_13KG
-    : totalWeight>FIVE_KG_IN_GRAMS?SHIPPING_UP_TO_8KG:SHIPPING_UP_TO_5KG;
-  return {items,sub,totalWeight,weightMissing,quoteRequired,freeShippingEligible,ship,total:quoteRequired?null:sub+ship};
-}
-function formatWeight(grams){
-  const kg=grams/1000;
-  return (Number.isInteger(kg)?kg:kg.toFixed(2))+" kg";
-}
-function shippingLabel(c){
-  if(c.weightMissing) return "重量待補，請聯絡客服";
-  return c.freeShippingEligible?"免運":"RM"+c.ship;
-}
-function requestShippingQuote(totalWeightOverride){
-  const c=calc();
-  const weight=Number.isFinite(Number(totalWeightOverride))
-    ? formatWeight(Number(totalWeightOverride))
-    : c.weightMissing?"部分商品未設定":formatWeight(c.totalWeight);
-  const lines=c.items.map(i=>`• ${i.p.name} x${i.qty}`).join("\n");
-  openWA(`您好，我想詢問購物車運費。\n地區：${$("c_region").value}\n商品小計：RM${c.sub}\n目前重量：${weight}\n${lines}\n請協助確認運費，謝謝。`);
-}
-function openCart(){
-  closeAll();
-  const c = calc();
-  if(!c.items.length){
-    $("cartBody").innerHTML = '<p style="padding:20px 0;text-align:center;color:#888">購物車是空的</p>';
-  }else{
-    const need = FREE_SHIPPING-c.sub;
-    $("cartBody").innerHTML = c.items.map(i=>`
-      <div class="line">
-        <div style="flex:1">${esc(i.p.name)}<div class="hint">RM${i.p.price}</div></div>
-        <div class="qty"><button onclick="chg(${i.p.id},-1)">−</button><span>${i.qty}</span><button onclick="chg(${i.p.id},1)">＋</button></div>
-        <div style="min-width:60px;text-align:right">RM${i.p.price*i.qty}</div>
-      </div>`).join("") +
-      `<div class="sum" style="margin-top:10px">
-        <div><span>商品小計</span><span>RM${c.sub}</span></div>
-        <div><span>包裹重量</span><span>${c.weightMissing?"未設定":formatWeight(c.totalWeight)}</span></div>
-        <div><span>運費</span><span>${shippingLabel(c)}</span></div>
-        <div class="t"><span>合計</span><span>${c.quoteRequired?"待補重量":"RM"+c.total}</span></div>
-      </div>` +
-      (c.quoteRequired
-        ? `<div class="hint" style="margin:6px 0">商品尚未設定重量，請聯絡客服確認。</div>
-           <button class="btn wa" onclick="requestShippingQuote()">透過 WhatsApp 確認重量與運費</button>`
-        : (c.freeShippingEligible
-          ? `<div class="free">🎉 已達免運門檻</div>`
-          : c.totalWeight>THIRTEEN_KG_IN_GRAMS
-            ? `<div class="hint" style="margin:6px 0">超過 13 kg 固定收取 RM150；大量或體積較大請聯絡客服確認。</div>`
-            : c.totalWeight>TEN_KG_IN_GRAMS
-              ? `<div class="hint" style="margin:6px 0">超過 10 kg 至 13 kg 運費 RM125，不適用滿額免運。</div>`
-            : `<div class="hint" style="margin:6px 0">未滿 1 kg 按 1 kg 計費；再買 RM${need} 達 RM799 可免運。</div>`) +
-          `<button class="btn" onclick="openCheckout()">前往結帳</button>`);
-  }
-  $("cartOv").classList.add("show");
-}
-function closeAll(){ document.querySelectorAll(".overlay").forEach(o=>o.classList.remove("show")); }
-
-/* ===== 結帳 ===== */
-async function openCheckout(){
-  const c=calc();
-  if(!c.items.length) return;
-  if(c.quoteRequired) return requestShippingQuote();
-  closeAll(); renderCheckout(); $("coOv").classList.add("show");
-  await setupPayPalCheckout();
-}
-function renderCheckout(){
-  const c = calc();
-  $("coSum").innerHTML =
-    `<div><span>商品小計</span><span>RM${c.sub}</span></div>
-     <div><span>包裹重量</span><span>${formatWeight(c.totalWeight)}</span></div>
-     <div><span>運費</span><span>${shippingLabel(c)}</span></div>
-     <div class="t"><span>合計</span><span>RM${c.total}</span></div>`;
-}
-async function setupPayPalCheckout(){
-  const status=$("paypalStatus"), button=$("orderBtn"), container=$("paypalButtons");
-  status.textContent="正在確認 PayPal 付款設定…";
-  button.style.display="none";
-  try{
-    if(!paypalConfig){
-      paypalConfig=await post({type:"paypalConfig"});
-      if(!paypalConfig.ok) throw new Error(paypalConfig.error||"無法讀取 PayPal 設定。");
+function setup() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const make = (name, headers, sample) => {
+    let sh = ss.getSheetByName(name) || ss.insertSheet(name);
+    if (sh.getLastRow() === 0) {
+      sh.appendRow(headers);
+      if (sample) sh.appendRow(sample);
+      sh.getRange(1, 1, 1, headers.length).setFontWeight("bold").setBackground("#fde8e8");
+      sh.setFrozenRows(1);
     }
-    if(!paypalConfig.enabled){
-      status.textContent="店家尚未完成 PayPal 線上付款設定。您仍可透過 WhatsApp 提交訂單並索取人工付款連結。";
-      button.style.display="";
-      container.style.display="none";
-      return;
+    return sh;
+  };
+  const products = make("商品",
+    ["id","名稱","說明","價格(RM)","分類","圖示","圖片網址","庫存","標籤","上架(Y/N)","詳細介紹","圖片網址2","圖片網址3","圖片網址4","圖片網址5","重量(g)"],
+    [1,"保濕面膜組","10片",55,"美妝保養","💆","",30,"熱賣","Y","","","","","",""]);
+  ensureProductColumns_(products);
+  const orders = make("訂單",
+    ["時間","訂單編號","姓名","電話","地區","地址","商品明細","小計","運費","合計","狀態","備註","會員Email","總重量(g)"]);
+  ensureOrderWeightColumn_(orders);
+  ensurePayPalOrderColumns_(orders);
+  make("代購",
+    ["時間","姓名","連結","規格","數量","備註","狀態","會員Email","照片連結"]);
+  DriveApp.getRootFolder();
+}
+
+function onOpen() {
+  SpreadsheetApp.getUi()
+    .createMenu("台灣好物管理")
+    .addItem("上傳商品照片／編輯介紹", "showProductPhotoUploader")
+    .addToUi();
+}
+
+function showProductPhotoUploader() {
+  const html = HtmlService.createHtmlOutputFromFile("ImageUploader")
+    .setTitle("商品照片與介紹");
+  SpreadsheetApp.getUi().showSidebar(html);
+}
+
+function getProductPhotoAdminData() {
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("商品");
+  if (!sh || sh.getLastRow() < 2) return [];
+  const columns = getProductColumns_(sh);
+  const rows = sh.getRange(2, 1, sh.getLastRow() - 1, sh.getLastColumn()).getValues();
+  return rows
+    .filter(row => row[columns.id] !== "")
+    .map(row => ({
+      id: String(row[columns.id]),
+      name: String(row[columns.name] || ""),
+      images: columns.images.map(column => String(row[column] || "")).filter(Boolean),
+      description: columns.description >= 0 ? String(row[columns.description] || "") : "",
+      weight: String(row[columns.weight] || "")
+    }));
+}
+
+function saveProductDescription(productId, description) {
+  const id = String(productId || "").trim();
+  const text = String(description == null ? "" : description);
+  if (!id) throw new Error("請先選擇商品。");
+  if (text.length > 5000) throw new Error("商品介紹最多 5,000 個字元。");
+
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("商品");
+    if (!sh) throw new Error("找不到「商品」工作表，請先執行 setup。");
+    const columns = getProductColumns_(sh);
+    const row = findProductRow_(sh, columns.id, id);
+    if (row < 0) throw new Error("找不到這項商品，請重新整理後再試。");
+    sh.getRange(row, columns.description + 1).setValue(text.trim());
+    return { ok: true };
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function saveProductWeight(productId, weightGrams) {
+  const id = String(productId || "").trim();
+  const weight = Number(weightGrams);
+  if (!id) throw new Error("請先選擇商品。");
+  if (!Number.isFinite(weight) || weight <= 0 || weight > 100000) {
+    throw new Error("請輸入大於 0 且不超過 100,000 克的重量。");
+  }
+
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("商品");
+    if (!sh) throw new Error("找不到「商品」工作表，請先執行 setup。");
+    const columns = getProductColumns_(sh);
+    const row = findProductRow_(sh, columns.id, id);
+    if (row < 0) throw new Error("找不到這項商品，請重新整理後再試。");
+    sh.getRange(row, columns.weight + 1).setValue(weight);
+    return { ok: true };
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function uploadProductImage(productId, dataUrl) {
+  return uploadProductImages(productId, [dataUrl]);
+}
+
+function uploadProductImages(productId, dataUrls) {
+  const id = String(productId || "").trim();
+  if (!id) throw new Error("請先選擇商品。");
+  if (!Array.isArray(dataUrls) || dataUrls.length < 1 || dataUrls.length > 5) {
+    throw new Error("請選擇 1 至 5 張商品照片。");
+  }
+  const maxPhotoSize = 5 * 1024 * 1024;
+  const maxTotalSize = 15 * 1024 * 1024;
+  let totalSize = 0;
+  const photos = dataUrls.map(dataUrl => {
+    if (typeof dataUrl !== "string") throw new Error("沒有收到完整的照片資料。");
+    const match = dataUrl.match(/^data:(image\/(?:jpeg|png|webp));base64,([A-Za-z0-9+/=]+)$/);
+    if (!match) throw new Error("請選擇 JPG、PNG 或 WebP 圖片。");
+    if (match[2].length > Math.ceil(maxPhotoSize / 3) * 4) {
+      throw new Error("每張照片不可超過 5 MB。");
     }
-    container.style.display="";
-    if(!paypalSdkPromise){
-      paypalSdkPromise=new Promise((resolve,reject)=>{
-        const script=document.createElement("script");
-        script.src="https://www.paypal.com/sdk/js?client-id="+encodeURIComponent(paypalConfig.clientId)+
-          "&currency="+encodeURIComponent(paypalConfig.currency||"MYR")+"&intent=capture&components=buttons";
-        script.onload=resolve;
-        script.onerror=()=>reject(new Error("無法載入 PayPal 付款元件。"));
-        document.head.appendChild(script);
+    const bytes = Utilities.base64Decode(match[2]);
+    if (!bytes.length || bytes.length > maxPhotoSize) {
+      throw new Error("每張照片大小需大於 0 且不超過 5 MB。");
+    }
+    totalSize += bytes.length;
+    return { mimeType: match[1], bytes };
+  });
+  if (totalSize > maxTotalSize) throw new Error("照片總大小不可超過 15 MB。");
+
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("商品");
+    if (!sh) throw new Error("找不到「商品」工作表，請先執行 setup。");
+    const columns = getProductColumns_(sh);
+    const row = findProductRow_(sh, columns.id, id);
+    if (row < 0) throw new Error("找不到這項商品，請重新整理後再試。");
+
+    const productName = String(sh.getRange(row, columns.name + 1).getDisplayValue() || "商品");
+    const safeName = productName.replace(/[^\w\u4e00-\u9fff-]+/g, "_").slice(0, 60) || "商品";
+    const folders = DriveApp.getFoldersByName("商品照片");
+    const folder = folders.hasNext() ? folders.next() : DriveApp.createFolder("商品照片");
+    const files = [];
+    try {
+      photos.forEach((photo, index) => {
+        const extension = { "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp" }[photo.mimeType];
+        const blob = Utilities.newBlob(photo.bytes, photo.mimeType,
+          safeName + "_" + Date.now() + "_" + (index + 1) + "." + extension);
+        const file = folder.createFile(blob);
+        files.push(file);
+        file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
       });
-    }
-    await paypalSdkPromise;
-    if(paypalButtonsMounted){
-      status.textContent="請先填寫收件資料，再使用下方 PayPal 按鈕付款。";
-      return;
-    }
-    if(!window.paypal||!window.paypal.Buttons) throw new Error("PayPal 付款元件尚未就緒。");
-    await window.paypal.Buttons({
-      createOrder:async()=>{
-        const name=$("c_name").value.trim();
-        const phone=$("c_phone").value.trim();
-        const region=$("c_region").value;
-        const addr=$("c_addr").value.trim();
-        if(!name||!phone||!addr) throw new Error("請先填寫姓名、電話和收件地址。");
-        if(!/^[0-9+\-\s]{8,16}$/.test(phone)) throw new Error("電話格式不正確。");
-        const c=calc();
-        if(!c.items.length||c.quoteRequired) throw new Error("購物車商品重量尚未完整設定，暫時無法付款。");
-        status.textContent="正在建立安全付款訂單…";
-        const result=await post({
-          type:"paypalCreateOrder",name,phone,region,addr,
-          items:c.items.map(item=>({id:item.p.id,qty:item.qty}))
-        });
-        if(!result.ok) throw new Error(result.error||"無法建立 PayPal 訂單。");
-        $("coSum").innerHTML=
-          `<div><span>商品小計</span><span>RM${result.subtotal}</span></div>
-           <div><span>包裹重量</span><span>${formatWeight(result.totalWeight)}</span></div>
-           <div><span>運費</span><span>${result.ship===0?"免運":"RM"+result.ship}</span></div>
-           <div class="t"><span>應付總額</span><span>RM${result.total}</span></div>`;
-        status.textContent="訂單已建立，請在 PayPal 安全頁面確認金額並完成付款。";
-        return result.paypalOrderId;
-      },
-      onApprove:async(data)=>{
-        status.textContent="PayPal 正在確認付款，請稍候…";
-        const result=await post({type:"paypalCaptureOrder",paypalOrderId:data.orderID});
-        if(!result.ok) throw new Error(result.error||"PayPal 尚未確認付款成功。");
-        cart={}; saveCart();
-        status.textContent=`付款成功！訂單編號：${result.orderNo}，已付款 RM${result.total}。`;
-        container.style.display="none";
-        button.style.display="none";
-        await loadProducts();
-        render();
-      },
-      onCancel:async(data)=>{
-        try{
-          const result=await post({type:"paypalCancelOrder",paypalOrderId:data.orderID});
-          status.textContent=result.ok
-            ?"已取消付款；若稍後仍要購買，請重新從購物車結帳。"
-            :"付款取消狀態未確認，請重新整理頁面或聯絡客服。";
-        }catch(error){
-          status.textContent="付款已取消，但庫存更新未確認；請重新整理頁面或聯絡客服。";
+    } catch (err) {
+      const cleanupErrors = [];
+      files.forEach(file => {
+        try {
+          file.setTrashed(true);
+        } catch (cleanupError) {
+          cleanupErrors.push(cleanupError.message);
         }
-      },
-      onError:error=>{
-        const detail=error&&error.message?error.message:"PayPal 付款未完成。";
-        status.textContent=detail+" 請勿重複付款；若已收到扣款通知，請先聯絡客服確認。";
-        console.error("PayPal checkout error",error);
+      });
+      if (cleanupErrors.length) {
+        throw new Error("無法公開檢視商品照片，且部分檔案清理未完成：" +
+          err.message + "；" + cleanupErrors.join("；"));
       }
-    }).render("#paypalButtons");
-    paypalButtonsMounted=true;
-    status.textContent="請先填寫收件資料，再使用下方 PayPal 按鈕付款。";
-  }catch(error){
-    status.textContent=(error&&error.message?error.message:"PayPal 暫時無法使用")+
-      "；可先透過 WhatsApp 提交訂單並索取人工付款連結。";
-    button.style.display="";
-    container.style.display="none";
+      throw new Error("無法公開檢視商品照片，請檢查 Google Drive 共用權限：" + err.message);
+    }
+
+    const imageUrls = files.map(file =>
+      "https://drive.google.com/thumbnail?id=" + file.getId() + "&sz=w1200");
+    columns.images.forEach((column, index) => {
+      sh.getRange(row, column + 1).setValue(imageUrls[index] || "");
+    });
+    return { ok: true, images: imageUrls };
+  } finally {
+    lock.releaseLock();
   }
 }
-async function submitOrder(){
-  const name=$("c_name").value.trim(), phone=$("c_phone").value.trim(),
-        region=$("c_region").value, addr=$("c_addr").value.trim();
-  if(!name||!phone||!addr) return alert("請填寫姓名、電話和地址");
-  if(!/^[0-9+\-\s]{8,16}$/.test(phone)) return alert("電話格式不正確");
-  const c = calc();
-  if(!c.items.length) return alert("購物車是空的");
-  if(c.quoteRequired) return requestShippingQuote();
-  const btn = $("orderBtn"); btn.disabled=true; btn.textContent="送出中…";
-  let orderNo="", total=c.total, sub=c.sub, ship=c.ship;
-  try{
-    if(SHEET_URL){
-      try{
-        const res = await post({type:"order",name,phone,region,addr,
-          items:c.items.map(i=>({id:i.p.id,qty:i.qty}))});
-        if(res.ok){ orderNo=res.orderNo; total=res.total; sub=res.sub; ship=res.ship; }
-        else{
-          alert("訂單未成功：" + res.error);
-          if(res.code==="QUOTE_REQUIRED") requestShippingQuote(res.totalWeight);
-          if(/重量|庫存|下架|不存在/.test(res.error)) await loadProducts();
-          render();
-          return;
-        }
-      }catch(e){
-        if(!confirm("系統連線失敗，是否仍用 WhatsApp 送出訂單？")) return;
-      }
-    }
-    const lines = c.items.map(i=>`• ${i.p.name} x${i.qty} = RM${i.p.price*i.qty}`).join("\n");
-    openWA(`【新訂單】${orderNo?"\n訂單編號："+orderNo:""}\n姓名：${name}\n電話：${phone}\n地區：${region}\n地址：${addr}\n\n${lines}\n\n包裹重量：${formatWeight(c.totalWeight)}\n小計：RM${sub}\n運費：${ship===0?"免運":"RM"+ship}\n合計：RM${total}\n\n請回覆 PayPal 付款連結，謝謝！`);
-    cart={}; saveCart(); closeAll();
-    await loadProducts(); render();
-  }finally{ btn.disabled=false; btn.textContent="送出訂單"; }
-}
-function openWA(text){
-  window.open("https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(text),"_blank");
-}
 
-document.addEventListener("keydown",e=>{
-  if(e.key==="Escape") closeAll();
-});
-
-/* ===== 代購照片 ===== */
-let buyPhotos = [];
-function compress(file){
-  return new Promise((resolve,reject)=>{
-    const img=new Image(), url=URL.createObjectURL(file);
-    img.onload=()=>{
-      const s=Math.min(1,1200/Math.max(img.width,img.height));
-      const c=document.createElement("canvas");
-      c.width=Math.round(img.width*s); c.height=Math.round(img.height*s);
-      c.getContext("2d").drawImage(img,0,0,c.width,c.height);
-      URL.revokeObjectURL(url);
-      resolve(c.toDataURL("image/jpeg",0.8));
-    };
-    img.onerror=()=>reject();
-    img.src=url;
+function ensureProductColumns_(sh) {
+  if (!sh.getLastColumn()) throw new Error("「商品」工作表沒有標題列，請重新執行 setup。");
+  const headers = sh.getRange(1, 1, 1, sh.getLastColumn()).getDisplayValues()[0]
+    .map(value => String(value).trim());
+  ["詳細介紹", "圖片網址2", "圖片網址3", "圖片網址4", "圖片網址5", "重量(g)"].forEach(header => {
+    if (headers.indexOf(header) >= 0) return;
+    const column = sh.getLastColumn() + 1;
+    sh.getRange(1, column).setValue(header)
+      .setFontWeight("bold")
+      .setBackground("#fde8e8");
+    headers.push(header);
   });
+  sh.setFrozenRows(1);
 }
-async function pickPhotos(inp){
-  if(inp.files.length>3) alert("最多 3 張，已取前 3 張");
-  buyPhotos=[];
-  for(const f of [...inp.files].slice(0,3)){
-    if(!f.type.startsWith("image/")) continue;
-    try{ buyPhotos.push(await compress(f)); }catch(e){ alert("無法讀取照片："+f.name); }
+
+function getProductColumns_(sh) {
+  ensureProductColumns_(sh);
+  const headers = sh.getRange(1, 1, 1, sh.getLastColumn()).getDisplayValues()[0]
+    .map(value => String(value).trim());
+  const columns = {
+    id: headers.indexOf("id"),
+    name: headers.indexOf("名稱"),
+    images: ["圖片網址", "圖片網址2", "圖片網址3", "圖片網址4", "圖片網址5"]
+      .map(header => headers.indexOf(header)),
+    description: headers.indexOf("詳細介紹"),
+    weight: headers.indexOf("重量(g)")
+  };
+  if (columns.id < 0 || columns.name < 0 || columns.images.some(column => column < 0) ||
+      columns.description < 0 || columns.weight < 0) {
+    throw new Error("商品表缺少必要欄位，請確認有 id、名稱、圖片網址1至5、詳細介紹及重量(g)欄。");
   }
-  renderPreview();
+  return columns;
 }
-function renderPreview(){
-  $("b_preview").innerHTML = buyPhotos.map((p,i)=>
-    `<div style="position:relative"><img src="${p}" style="width:70px;height:70px;object-fit:cover;border-radius:8px">
-     <span onclick="rmPhoto(${i})" style="position:absolute;top:-6px;right:-6px;background:#333;color:#fff;border-radius:50%;width:20px;height:20px;text-align:center;line-height:20px;cursor:pointer;font-size:12px">✕</span></div>`).join("");
-}
-function rmPhoto(i){ buyPhotos.splice(i,1); renderPreview(); }
 
-async function sendBuy(){
-  const name=$("b_name").value.trim(), link=$("b_link").value.trim(), note=$("b_note").value.trim();
-  if(!name) return alert("請填寫姓名");
-  if(!link && !note && !buyPhotos.length) return alert("請貼上商品連結、上傳照片，或在備註描述商品");
-  const btn=$("buyBtn"); btn.disabled=true; btn.textContent="送出中…";
-  let uploaded=0;
-  try{
-    if(SHEET_URL){
-      try{
-        const res = await post({type:"buy",name,link,spec:$("b_spec").value,qty:$("b_qty").value,note,photos:buyPhotos});
-        if(res.ok) uploaded=res.photos||0;
-        else if(!confirm("紀錄失敗："+res.error+"\n是否仍用 WhatsApp 送出？")) return;
-      }catch(e){
-        if(!confirm("上傳失敗，是否仍用 WhatsApp 送出？（照片需在 WhatsApp 手動傳送）")) return;
+function ensureOrderWeightColumn_(sh) {
+  const lastColumn = sh.getLastColumn();
+  if (!lastColumn) throw new Error("「訂單」工作表沒有標題列，請重新執行 setup。");
+  const headers = sh.getRange(1, 1, 1, lastColumn).getDisplayValues()[0]
+    .map(value => String(value).trim());
+  if (headers.indexOf("總重量(g)") >= 0) return;
+  sh.getRange(1, lastColumn + 1).setValue("總重量(g)")
+    .setFontWeight("bold")
+    .setBackground("#fde8e8");
+  sh.setFrozenRows(1);
+}
+
+function ensurePayPalOrderColumns_(sh) {
+  const headers = sh.getRange(1, 1, 1, sh.getLastColumn()).getDisplayValues()[0]
+    .map(value => String(value).trim());
+  ["PayPal訂單ID", "付款期限", "付款預留明細", "PayPal捕獲ID"].forEach(header => {
+    if (headers.indexOf(header) >= 0) return;
+    const column = sh.getLastColumn() + 1;
+    sh.getRange(1, column).setValue(header)
+      .setFontWeight("bold")
+      .setBackground("#fde8e8");
+    headers.push(header);
+  });
+  sh.setFrozenRows(1);
+  return headers;
+}
+
+function findProductRow_(sh, idColumn, productId) {
+  const values = sh.getRange(2, idColumn + 1, Math.max(sh.getLastRow() - 1, 0), 1)
+    .getDisplayValues();
+  const index = values.findIndex(row => String(row[0]).trim() === productId);
+  return index < 0 ? -1 : index + 2;
+}
+
+function doGet() {
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("商品");
+  if (!sh || sh.getLastRow() < 2) return out([]);
+  const headers = sh.getRange(1, 1, 1, sh.getLastColumn()).getDisplayValues()[0]
+    .map(value => String(value).trim());
+  const detailIndex = headers.indexOf("詳細介紹");
+  const weightIndex = headers.indexOf("重量(g)");
+  const photoIndices = ["圖片網址", "圖片網址2", "圖片網址3", "圖片網址4", "圖片網址5"]
+    .map(header => headers.indexOf(header));
+  const rows = sh.getDataRange().getValues();
+  rows.shift();
+  return out(rows
+    .filter(r => r[0] !== "" && String(r[9]).trim().toUpperCase() === "Y")
+    .map(r => {
+      const images = photoIndices.map(index => index >= 0 ? r[index] : "").filter(Boolean);
+      return {
+        id: Number(r[0]), name: r[1], desc: r[2], price: Number(r[3]),
+        cat: r[4], icon: r[5], img: images[0] || r[6], images,
+        stock: Number(r[7]), badge: r[8],
+        description: detailIndex >= 0 ? r[detailIndex] : "",
+        weight: weightIndex >= 0 ? Number(r[weightIndex]) : 0
+      };
+    }));
+}
+
+function doPost(e) {
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const d = JSON.parse(e.postData.contents);
+    const ss = SpreadsheetApp.getActiveSpreadsheet();
+    const now = Utilities.formatDate(new Date(), "Asia/Kuala_Lumpur", "yyyy-MM-dd HH:mm:ss");
+
+    if (d.type === "paypalConfig") {
+      const orderSheet = ss.getSheetByName("訂單");
+      if (orderSheet && orderSheet.getLastRow() > 0) {
+        const headers = ensurePayPalOrderColumns_(orderSheet);
+        releaseExpiredPayPalOrders_(orderSheet, headers);
       }
+      return out(getPayPalConfig_());
     }
-    const photoLine = uploaded?`已上傳 ${uploaded} 張照片（請查看後台）`:(buyPhotos.length?"照片未成功上傳，稍後在此傳送":"（無照片）");
-    openWA(`【代購需求】\n姓名：${name}\n連結：${link||"（無）"}\n規格：${$("b_spec").value}\n數量：${$("b_qty").value}\n備註：${note}\n照片：${photoLine}`);
-    buyPhotos=[]; $("b_photos").value=""; renderPreview();
-  }finally{ btn.disabled=false; btn.textContent="送出代購需求（WhatsApp）"; }
+
+    if (d.type === "paypalCreateOrder") {
+      return out(createPayPalOrder_(d, now));
+    }
+
+    if (d.type === "paypalCaptureOrder") {
+      return out(capturePayPalOrder_(d.paypalOrderId));
+    }
+
+    if (d.type === "paypalCancelOrder") {
+      return out(cancelPayPalOrder_(d.paypalOrderId));
+    }
+
+    if (d.type === "buy") {
+      const urls = [];
+      if (Array.isArray(d.photos) && d.photos.length) {
+        const it = DriveApp.getFoldersByName("代購照片");
+        const folder = it.hasNext() ? it.next() : DriveApp.createFolder("代購照片");
+        d.photos.slice(0, 3).forEach((p, i) => {
+          const m = String(p).match(/^data:image\/(jpeg|png);base64,(.+)$/);
+          if (!m) return;
+          const fname = "代購_" + now.replace(/[: ]/g, "-") + "_" + (i + 1) + ".jpg";
+          const blob = Utilities.newBlob(Utilities.base64Decode(m[2]), "image/" + m[1], fname);
+          urls.push(folder.createFile(blob).getUrl());
+        });
+      }
+      ss.getSheetByName("代購").appendRow(
+        [now, d.name, d.link, d.spec, d.qty, d.note, "待處理", "", urls.join("\n")]);
+      return out({ ok: true, photos: urls.length });
+    }
+
+    if (d.type === "order") {
+      if (!d.items || !d.items.length) return out({ ok: false, error: "購物車是空的" });
+      if (SHIPPING_REGIONS.indexOf(d.region) < 0) return out({ ok: false, error: "地區錯誤" });
+      const sh = ss.getSheetByName("商品");
+      const data = sh.getDataRange().getValues();
+      const weightIndex = data[0].map(value => String(value).trim()).indexOf("重量(g)");
+      if (weightIndex < 0) return out({ ok: false, error: "商品表缺少重量欄，請先執行 setup。" });
+      let sub = 0, totalWeight = 0, lines = [], deduct = [];
+      for (const it of d.items) {
+        const qty = Math.floor(Number(it.qty));
+        const idx = data.findIndex((r, i) => i > 0 && Number(r[0]) === Number(it.id));
+        if (idx < 0 || qty < 1) return out({ ok: false, error: "商品不存在，請重新整理頁面" });
+        const r = data[idx];
+        if (String(r[9]).trim().toUpperCase() !== "Y") return out({ ok: false, error: r[1] + " 已下架" });
+        if (Number(r[7]) < qty) return out({ ok: false, error: r[1] + " 庫存不足（剩 " + r[7] + "）" });
+        const unitWeight = Number(r[weightIndex]);
+        if (!Number.isFinite(unitWeight) || unitWeight <= 0) {
+          return out({ ok: false, error: r[1] + " 尚未設定寄送重量，請聯絡客服。" });
+        }
+        sub += Number(r[3]) * qty;
+        totalWeight += unitWeight * qty;
+        lines.push(r[1] + " x" + qty);
+        deduct.push([idx + 1, Number(r[7]) - qty]);
+      }
+      const osh = ss.getSheetByName("訂單");
+      if (!osh) return out({ ok: false, error: "找不到「訂單」工作表，請先執行 setup。" });
+      ensureOrderWeightColumn_(osh);
+      const orderNo = "TW" + Utilities.formatDate(new Date(), "Asia/Kuala_Lumpur", "yyMMdd") +
+                      "-" + String(osh.getLastRow()).padStart(3, "0");
+      const ship = calculateShipping_(sub, totalWeight);
+      const total = sub + ship;
+      const orderValues = {
+        "時間": now, "訂單編號": orderNo, "姓名": d.name, "電話": "'" + d.phone,
+        "地區": d.region, "地址": d.addr, "商品明細": lines.join("\n"),
+        "小計": sub, "運費": ship, "合計": total, "狀態": "待付款",
+        "備註": "", "會員Email": "", "總重量(g)": totalWeight
+      };
+      const orderHeaders = osh.getRange(1, 1, 1, osh.getLastColumn())
+        .getDisplayValues()[0].map(value => String(value).trim());
+      deduct.forEach(([row, left]) => sh.getRange(row, 8).setValue(left));
+      osh.appendRow(orderHeaders.map(header =>
+        Object.prototype.hasOwnProperty.call(orderValues, header) ? orderValues[header] : ""));
+      return out({ ok: true, orderNo, sub, ship, total, totalWeight });
+    }
+    return out({ ok: false, error: "未知請求" });
+  } catch (err) {
+    return out({ ok: false, error: err.message || String(err) });
+  } finally {
+    lock.releaseLock();
+  }
 }
 
-document.addEventListener("click",e=>{
-  const link=e.target.closest('a[href^="#"]');
-  if(!link) return;
-  const hash=link.getAttribute("href"), target=document.querySelector(hash);
-  if(!target) return;
-  e.preventDefault();
-  if(location.hash!==hash) history.pushState(null,"",hash);
-  const top=hash==="#home"?0:target.getBoundingClientRect().top+window.scrollY-document.querySelector("header").offsetHeight-16;
-  window.scrollTo({top:Math.max(0,top),behavior:"smooth"});
-});
+function getPayPalConfig_() {
+  const props = PropertiesService.getScriptProperties();
+  const clientId = props.getProperty("PAYPAL_CLIENT_ID") || "";
+  const clientSecret = props.getProperty("PAYPAL_CLIENT_SECRET") || "";
+  const mode = (props.getProperty("PAYPAL_MODE") || "sandbox").toLowerCase();
+  return {
+    ok: true,
+    enabled: Boolean(clientId && clientSecret && (mode === "sandbox" || mode === "live")),
+    clientId,
+    mode,
+    currency: PAYPAL_CURRENCY
+  };
+}
 
-/* ===== 啟動 ===== */
-(async function init(){
-  $("waLink").href = "https://wa.me/"+WA_NUMBER;
-  $("paypalAsk").href = "https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent("您好，我想使用 PayPal 付款，請提供 PayPal Invoice／付款連結。");
-  $("floatingWa").href = "https://wa.me/"+WA_NUMBER;
-  renderCats(); render(); updateCnt();
-  await loadProducts();
-  render();
-})();
-</script>
+function testPayPalConnection() {
+  const config = getPayPalConfig_();
+  if (!config.enabled) throw new Error("請先設定 PAYPAL_CLIENT_ID、PAYPAL_CLIENT_SECRET 與 PAYPAL_MODE。");
+  getPayPalAccessToken_();
+  return "PayPal " + config.mode + " API 驗證成功；未建立付款或扣款。";
+}
 
-</body></html>
+function calculateShipping_(subtotal, totalWeight) {
+  if (subtotal >= FREE_SHIPPING && totalWeight <= TEN_KG_IN_GRAMS) return 0;
+  if (totalWeight > THIRTEEN_KG_IN_GRAMS) return SHIPPING_OVER_13KG;
+  if (totalWeight > EIGHT_KG_IN_GRAMS) return SHIPPING_UP_TO_13KG;
+  if (totalWeight > FIVE_KG_IN_GRAMS) return SHIPPING_UP_TO_8KG;
+  return SHIPPING_UP_TO_5KG;
+}
+
+function getPayPalAccessToken_() {
+  const props = PropertiesService.getScriptProperties();
+  const clientId = props.getProperty("PAYPAL_CLIENT_ID");
+  const clientSecret = props.getProperty("PAYPAL_CLIENT_SECRET");
+  const mode = (props.getProperty("PAYPAL_MODE") || "sandbox").toLowerCase();
+  if (!clientId || !clientSecret) throw new Error("店家尚未設定 PayPal Client ID 與 Secret。");
+  if (mode !== "sandbox" && mode !== "live") throw new Error("PAYPAL_MODE 必須設定為 sandbox 或 live。");
+
+  const baseUrl = mode === "live" ? "https://api-m.paypal.com" : "https://api-m.sandbox.paypal.com";
+  const response = UrlFetchApp.fetch(baseUrl + "/v1/oauth2/token", {
+    method: "post",
+    headers: { Authorization: "Basic " + Utilities.base64Encode(clientId + ":" + clientSecret) },
+    payload: { grant_type: "client_credentials" },
+    muteHttpExceptions: true
+  });
+  const status = response.getResponseCode();
+  const body = response.getContentText();
+  let result;
+  try {
+    result = JSON.parse(body);
+  } catch (err) {
+    throw new Error("PayPal 驗證服務回傳無法辨識的資料（HTTP " + status + "）。");
+  }
+  if (status < 200 || status >= 300 || !result.access_token) {
+    throw new Error("PayPal 商家憑證驗證失敗（HTTP " + status + "）。請檢查 Developer App 與環境設定。");
+  }
+  return { token: result.access_token, baseUrl };
+}
+
+function callPayPalApi_(method, path, payload, requestId) {
+  const auth = getPayPalAccessToken_();
+  const options = {
+    method: method.toLowerCase(),
+    headers: {
+      Authorization: "Bearer " + auth.token,
+      "Content-Type": "application/json",
+      "PayPal-Request-Id": requestId || Utilities.getUuid()
+    },
+    muteHttpExceptions: true
+  };
+  if (payload !== null && payload !== undefined) options.payload = JSON.stringify(payload);
+  const response = UrlFetchApp.fetch(auth.baseUrl + path, options);
+  const status = response.getResponseCode();
+  const body = response.getContentText();
+  let result = {};
+  try {
+    result = body ? JSON.parse(body) : {};
+  } catch (err) {
+    throw new Error("PayPal API 回傳無法辨識的資料（HTTP " + status + "）。");
+  }
+  if (status < 200 || status >= 300) {
+    const issue = result.message || result.name || "請檢查 PayPal 設定與付款資料";
+    throw new Error("PayPal API 請求失敗（HTTP " + status + "）：" + issue);
+  }
+  return result;
+}
+
+function getPayPalOrderContext_(d) {
+  const name = String(d.name || "").trim();
+  const phone = String(d.phone || "").trim();
+  const address = String(d.addr || "").trim().replace(/\s+/g, " ");
+  if (!name || name.length > 120) throw new Error("請填寫有效姓名（最多 120 個字元）。");
+  if (!/^[0-9+\-\s]{8,16}$/.test(phone)) throw new Error("電話格式不正確。");
+  if (!address || address.length > 300) throw new Error("請填寫有效收件地址（最多 300 個字元）。");
+  if (SHIPPING_REGIONS.indexOf(d.region) < 0) throw new Error("地區錯誤。");
+  if (!Array.isArray(d.items) || !d.items.length || d.items.length > 50) {
+    throw new Error("購物車商品數量不正確。");
+  }
+
+  const requested = {};
+  d.items.forEach(item => {
+    const id = String(item.id || "").trim();
+    const qty = Number(item.qty);
+    if (!/^\d+$/.test(id) || !Number.isInteger(qty) || qty < 1 || qty > 100) {
+      throw new Error("商品或數量格式不正確。");
+    }
+    requested[id] = (requested[id] || 0) + qty;
+    if (requested[id] > 100) throw new Error("單一商品數量不可超過 100 件。");
+  });
+
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("商品");
+  if (!sh || sh.getLastRow() < 2) throw new Error("商品資料目前無法使用。");
+  const data = sh.getDataRange().getValues();
+  const weightIndex = data[0].map(value => String(value).trim()).indexOf("重量(g)");
+  if (weightIndex < 0) throw new Error("商品表缺少重量欄，請先執行 setup。");
+
+  let subtotal = 0;
+  let totalWeight = 0;
+  const items = [];
+  const stockChanges = [];
+  Object.keys(requested).forEach(id => {
+    const qty = requested[id];
+    const index = data.findIndex((row, rowIndex) => rowIndex > 0 && String(row[0]).trim() === id);
+    if (index < 0) throw new Error("商品不存在，請重新整理頁面。");
+    const row = data[index];
+    const stock = Number(row[7]);
+    const price = Number(row[3]);
+    const weight = Number(row[weightIndex]);
+    if (String(row[9]).trim().toUpperCase() !== "Y") throw new Error(row[1] + " 已下架。");
+    if (!Number.isFinite(stock) || stock < qty) throw new Error(row[1] + " 庫存不足。");
+    if (!Number.isFinite(price) || price <= 0) throw new Error(row[1] + " 價格資料不正確。");
+    if (!Number.isFinite(weight) || weight <= 0) throw new Error(row[1] + " 尚未設定寄送重量。");
+    subtotal += price * qty;
+    totalWeight += weight * qty;
+    items.push({ id, name: String(row[1]), price, qty, weight });
+    stockChanges.push({ row: index + 1, oldStock: stock, newStock: stock - qty });
+  });
+
+  return {
+    productSheet: sh,
+    name,
+    phone,
+    address,
+    region: d.region,
+    items,
+    stockChanges,
+    subtotal,
+    totalWeight,
+    shipping: calculateShipping_(subtotal, totalWeight),
+    total: subtotal + calculateShipping_(subtotal, totalWeight)
+  };
+}
+
+function createPayPalOrder_(d, now) {
+  const config = getPayPalConfig_();
+  if (!config.enabled) throw new Error("店家尚未完成 PayPal 線上付款設定。");
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const orderSheet = ss.getSheetByName("訂單");
+  if (!orderSheet) throw new Error("找不到「訂單」工作表，請先執行 setup。");
+  ensureOrderWeightColumn_(orderSheet);
+  const headers = ensurePayPalOrderColumns_(orderSheet);
+  releaseExpiredPayPalOrders_(orderSheet, headers);
+
+  const order = getPayPalOrderContext_(d);
+  const orderNo = "TW" + Utilities.formatDate(new Date(), "Asia/Kuala_Lumpur", "yyMMdd") +
+    "-" + String(orderSheet.getLastRow()).padStart(3, "0");
+  const amount = value => Number(value).toFixed(2);
+  const paypalOrder = callPayPalApi_("post", "/v2/checkout/orders", {
+    intent: "CAPTURE",
+    purchase_units: [{
+      reference_id: orderNo,
+      custom_id: orderNo,
+      description: "台灣好物訂單 " + orderNo,
+      amount: {
+        currency_code: PAYPAL_CURRENCY,
+        value: amount(order.total),
+        breakdown: {
+          item_total: { currency_code: PAYPAL_CURRENCY, value: amount(order.subtotal) },
+          shipping: { currency_code: PAYPAL_CURRENCY, value: amount(order.shipping) }
+        }
+      },
+      items: order.items.map(item => ({
+        name: item.name.slice(0, 127),
+        unit_amount: { currency_code: PAYPAL_CURRENCY, value: amount(item.price) },
+        quantity: String(item.qty),
+        category: "PHYSICAL_GOODS"
+      })),
+      shipping: {
+        name: { full_name: order.name },
+        address: { address_line_1: order.address, country_code: "MY" }
+      }
+    }],
+    application_context: {
+      brand_name: "台灣好物",
+      shipping_preference: "SET_PROVIDED_ADDRESS",
+      user_action: "PAY_NOW"
+    }
+  }, Utilities.getUuid());
+  if (!paypalOrder.id) throw new Error("PayPal 沒有回傳付款訂單編號。");
+
+  const expiresAt = new Date(Date.now() + PAYPAL_HOLD_MINUTES * 60 * 1000);
+  const reserveDetails = order.items.map(item => ({ id: item.id, qty: item.qty }));
+  const values = {
+    "時間": now,
+    "訂單編號": orderNo,
+    "姓名": order.name,
+    "電話": "'" + order.phone,
+    "地區": order.region,
+    "地址": order.address,
+    "商品明細": order.items.map(item => item.name + " x" + item.qty).join("\n"),
+    "小計": order.subtotal,
+    "運費": order.shipping,
+    "合計": order.total,
+    "狀態": "PayPal待付款",
+    "備註": "",
+    "會員Email": "",
+    "總重量(g)": order.totalWeight,
+    "PayPal訂單ID": paypalOrder.id,
+    "付款期限": expiresAt,
+    "付款預留明細": JSON.stringify(reserveDetails),
+    "PayPal捕獲ID": ""
+  };
+  const orderRow = orderSheet.getLastRow() + 1;
+  try {
+    orderSheet.appendRow(headers.map(header =>
+      Object.prototype.hasOwnProperty.call(values, header) ? values[header] : ""));
+    applyStockChanges_(order.productSheet, order.stockChanges, "newStock");
+  } catch (err) {
+    if (orderSheet.getLastRow() >= orderRow) {
+      orderSheet.getRange(orderRow, headers.indexOf("狀態") + 1).setValue("付款建立失敗");
+    }
+    throw err;
+  }
+  return {
+    ok: true,
+    paypalOrderId: paypalOrder.id,
+    orderNo,
+    subtotal: order.subtotal,
+    ship: order.shipping,
+    total: order.total,
+    totalWeight: order.totalWeight
+  };
+}
+
+function applyStockChanges_(productSheet, changes, valueKey) {
+  const previous = changes.map(change => ({ row: change.row, value: change.oldStock }));
+  try {
+    changes.forEach(change => productSheet.getRange(change.row, 8).setValue(change[valueKey]));
+  } catch (err) {
+    const restoreErrors = [];
+    previous.forEach(change => {
+      try {
+        productSheet.getRange(change.row, 8).setValue(change.value);
+      } catch (restoreError) {
+        restoreErrors.push(restoreError.message);
+      }
+    });
+    if (restoreErrors.length) {
+      throw new Error("庫存更新失敗，且回復庫存時發生錯誤：" + restoreErrors.join("；"));
+    }
+    throw err;
+  }
+}
+
+function findPayPalOrderRow_(orderSheet, headers, paypalOrderId) {
+  const idColumn = headers.indexOf("PayPal訂單ID");
+  if (idColumn < 0 || orderSheet.getLastRow() < 2) return -1;
+  const values = orderSheet.getRange(2, idColumn + 1, orderSheet.getLastRow() - 1, 1)
+    .getDisplayValues();
+  const index = values.findIndex(row => String(row[0]).trim() === paypalOrderId);
+  return index < 0 ? -1 : index + 2;
+}
+
+function releasePayPalReservation_(orderSheet, row, headers, status) {
+  const statusColumn = headers.indexOf("狀態") + 1;
+  const reserveColumn = headers.indexOf("付款預留明細") + 1;
+  const detailsText = String(orderSheet.getRange(row, reserveColumn).getValue() || "");
+  const reservations = detailsText ? JSON.parse(detailsText) : [];
+  const productSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("商品");
+  const stockChanges = [];
+  reservations.forEach(item => {
+    const productRow = findProductRow_(productSheet, 0, String(item.id));
+    if (productRow < 0) throw new Error("找不到商品 " + item.id + "，無法回復保留庫存。");
+    const stockCell = productSheet.getRange(productRow, 8);
+    const stock = Number(stockCell.getValue());
+    const qty = Number(item.qty);
+    if (!Number.isFinite(stock) || !Number.isInteger(qty) || qty < 1) {
+      throw new Error("商品 " + item.id + " 的庫存資料異常，無法回復保留庫存。");
+    }
+    stockChanges.push({ row: productRow, oldStock: stock, newStock: stock + qty });
+  });
+  applyStockChanges_(productSheet, stockChanges, "newStock");
+  orderSheet.getRange(row, statusColumn).setValue(status);
+  orderSheet.getRange(row, headers.indexOf("付款期限") + 1).clearContent();
+  orderSheet.getRange(row, reserveColumn).clearContent();
+}
+
+function releaseExpiredPayPalOrders_(orderSheet, headers) {
+  const lastRow = orderSheet.getLastRow();
+  if (lastRow < 2) return;
+  const data = orderSheet.getRange(2, 1, lastRow - 1, orderSheet.getLastColumn()).getValues();
+  const statusIndex = headers.indexOf("狀態");
+  const expiryIndex = headers.indexOf("付款期限");
+  for (let index = 0; index < data.length; index++) {
+    const row = data[index];
+    const expiry = row[expiryIndex];
+    if (String(row[statusIndex]) !== "PayPal待付款" || !expiry) continue;
+    const expiryTime = new Date(expiry).getTime();
+    if (Number.isFinite(expiryTime) && expiryTime <= Date.now()) {
+      releasePayPalReservation_(orderSheet, index + 2, headers, "付款逾時取消");
+    }
+  }
+}
+
+function capturePayPalOrder_(paypalOrderId) {
+  const id = String(paypalOrderId || "").trim();
+  if (!id) throw new Error("缺少 PayPal 訂單編號。");
+  const orderSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("訂單");
+  if (!orderSheet) throw new Error("找不到「訂單」工作表。");
+  const headers = ensurePayPalOrderColumns_(orderSheet);
+  releaseExpiredPayPalOrders_(orderSheet, headers);
+  const row = findPayPalOrderRow_(orderSheet, headers, id);
+  if (row < 0) throw new Error("找不到此 PayPal 訂單，請聯絡客服。");
+  const statusColumn = headers.indexOf("狀態") + 1;
+  const status = String(orderSheet.getRange(row, statusColumn).getValue());
+  if (status === "已付款") {
+    return {
+      ok: true,
+      orderNo: orderSheet.getRange(row, headers.indexOf("訂單編號") + 1).getDisplayValue(),
+      total: Number(orderSheet.getRange(row, headers.indexOf("合計") + 1).getValue())
+    };
+  }
+  if (status !== "PayPal待付款") throw new Error("此付款訂單已取消或逾時，請重新結帳。");
+
+  let captureError = null;
+  try {
+    callPayPalApi_("post", "/v2/checkout/orders/" + encodeURIComponent(id) + "/capture", null, Utilities.getUuid());
+  } catch (err) {
+    captureError = err;
+  }
+  let paypalOrder;
+  try {
+    paypalOrder = callPayPalApi_("get", "/v2/checkout/orders/" + encodeURIComponent(id), null);
+  } catch (err) {
+    throw captureError || err;
+  }
+  const purchaseUnit = paypalOrder.purchase_units && paypalOrder.purchase_units[0];
+  const capture = purchaseUnit && purchaseUnit.payments && purchaseUnit.payments.captures &&
+    purchaseUnit.payments.captures[0];
+  if (paypalOrder.status !== "COMPLETED" || !capture || capture.status !== "COMPLETED") {
+    throw captureError || new Error("PayPal 尚未確認付款成功。");
+  }
+  const expectedTotal = Number(orderSheet.getRange(row, headers.indexOf("合計") + 1).getValue()).toFixed(2);
+  if (capture.amount.currency_code !== PAYPAL_CURRENCY ||
+      Number(capture.amount.value).toFixed(2) !== expectedTotal) {
+    throw new Error("PayPal 回報金額與訂單不符，請暫勿重複付款並聯絡客服。");
+  }
+  orderSheet.getRange(row, statusColumn).setValue("已付款");
+  orderSheet.getRange(row, headers.indexOf("付款期限") + 1).clearContent();
+  orderSheet.getRange(row, headers.indexOf("付款預留明細") + 1).clearContent();
+  orderSheet.getRange(row, headers.indexOf("PayPal捕獲ID") + 1).setValue(capture.id || "");
+  return {
+    ok: true,
+    orderNo: orderSheet.getRange(row, headers.indexOf("訂單編號") + 1).getDisplayValue(),
+    total: Number(expectedTotal)
+  };
+}
+
+function cancelPayPalOrder_(paypalOrderId) {
+  const id = String(paypalOrderId || "").trim();
+  if (!id) throw new Error("缺少 PayPal 訂單編號。");
+  const orderSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("訂單");
+  if (!orderSheet) throw new Error("找不到「訂單」工作表。");
+  const headers = ensurePayPalOrderColumns_(orderSheet);
+  const row = findPayPalOrderRow_(orderSheet, headers, id);
+  if (row < 0) return { ok: true };
+  const status = String(orderSheet.getRange(row, headers.indexOf("狀態") + 1).getValue());
+  if (status === "已付款") throw new Error("此訂單已付款，請聯絡客服處理取消。");
+  if (status === "PayPal待付款") {
+    releasePayPalReservation_(orderSheet, row, headers, "已取消付款");
+  }
+  return { ok: true };
+}
+
+function out(obj) {
+  return ContentService.createTextOutput(JSON.stringify(obj))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+function showTestResult() {
+  Logger.log(testPayPalConnection());
+}
